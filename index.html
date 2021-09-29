@@ -230,7 +230,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/12/test/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/09/29/RL-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -249,7 +249,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2021/09/12/test/" itemprop="url">test</a></h1>
+                <a class="post-title-link" href="/2021/09/29/RL-1/" itemprop="url">未命名</a></h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-09-12T16:23:40+08:00">
-                2021-09-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-09-29T23:13:47+08:00">
+                2021-09-29
               </time>
             
 
@@ -301,7 +301,43 @@
       
         
           
-            <p>我是垃圾</p>
+            <ol>
+<li><p>state：状态</p>
+</li>
+<li><p>action：动作</p>
+</li>
+<li><p>policy：在状态$$s$$下采取动作$$a$$的概率，即$$\pi(a|s)=P(A=a|S=s)$$</p>
+</li>
+<li><p>reward：奖励，记作$r$，强化学习的目标就是获得尽量高的奖励</p>
+</li>
+<li><p>state transition，状态转移，通过动作$a$从当前状态转移到新的状态，随机性与环境相关。$$p(s’|s,a)=P(S’=s’|S=s,A=a) $$</p>
+</li>
+<li><p>两种随机性</p>
+<ul>
+<li>动作的随机性：给定状态$s$，采取的动作是随机的，来源于policy function</li>
+<li>状态的随机性：状态转移是随机的，环境影响新的状态的生成，来源于state-transition function</li>
+</ul>
+</li>
+<li><p>agent与环境的交互：</p>
+<p><img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20210929211921485.png" alt="image-20210929211921485"></p>
+</li>
+<li><p>Return，未来累计奖励，在$$t$$时刻的折扣回报$$U_t=R_t+\gamma R_{t+1}+\gamma^2 R_{t+2}…+\gamma^{n-t}R_n$$，在$t$时刻，由于$$R_t,…R_n$$是随机的，故$$U_t$$是随机的</p>
+</li>
+<li><p>因为$R_i$ 由$S_i$和$A_i$决定，故$S_i$和$A_i$中某一变量是随机变量的时候，$R_i$也是随机变量。同时可以推出$U_t$由$$S_t,A_t,S_{t+1},A_{t+1}…S_n,A_n$$决定</p>
+</li>
+<li><p>Action-Value Function：$$Q_\pi(s_t,a_t)=E[U_t|S_t=s_t,A_t=a_t]$$，依赖于状态$s_t$和动作$a_t$。用于决策在当前状态$s$下采取动作$a$是否合适</p>
+</li>
+<li><p>$$Q^*(s_t,a_t)$$ =$$max_\pi(Q_\pi(s_t,a_t)))$$ </p>
+</li>
+<li><p>State-Value Function，$$V_\pi(s_t)=E_A[Q_\pi(s_t,A)]$$。用于判断当前状态$s$好不好</p>
+</li>
+<li><p>$$E_s[V_\pi(S)]$$用于评价policy $\pi$好不好</p>
+</li>
+<li><p>流程：</p>
+<p><img src="C:\Users\ASUS\AppData\Roaming\Typora\typora-user-images\image-20210929223850341.png" alt="image-20210929223850341"></p>
+<p>代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> gym</span><br><span class="line">env = gym.make(<span class="string">&#x27;CartPole-v0&#x27;</span>)</span><br><span class="line">state = env.reset()</span><br><span class="line"><span class="keyword">for</span> t <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">100</span>):</span><br><span class="line">    env.render()</span><br><span class="line">    <span class="built_in">print</span>(state)</span><br><span class="line">    action = env.action_space.sample()</span><br><span class="line">    state, reward, done, info = env.step(action)</span><br><span class="line">    <span class="keyword">if</span> done:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;Finished&#x27;</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">env.close()</span><br></pre></td></tr></table></figure></li>
+</ol>
 
           
         
