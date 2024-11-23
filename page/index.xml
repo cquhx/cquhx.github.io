@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on iceysy</title>
+        <link>https://cquhx.github.io/page/</link>
+        <description>Recent content in Pages on iceysy</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>iceysy</copyright>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://cquhx.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>https://cquhx.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://cquhx.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://cquhx.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://cquhx.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://cquhx.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://cquhx.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;style&gt;
+.qrcode-link {
+  position: relative;  /* 仅应用于具有 qrcode-link 类的 a 标签 */
+}
+
+#QRcodeImg {
+  background-image: url(&#34;https://ooo.0x0.ooo/2024/11/22/OHdLpc.jpg&#34;);
+  width: 200px;
+  height: 200px;
+  background-size: 160px 160px;
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  position: absolute;  /* 绝对定位二维码 */
+  z-index: 22;
+  border: 2px solid rgb(22, 59, 209);
+  display: none;  /* 初始状态二维码隐藏 */
+  top: 100%;  /* 设置二维码的位置在链接文字的下方 */
+  left: 100%;  /* 设置二维码的位置在链接文字的右侧 */
+  margin-top: -10px; /* 微调二维码的垂直位置 */
+  margin-left: 10px; /* 微调二维码的水平位置 */
+}
+
+.qrcode-text {
+  margin-top: 160px; /* 图片和文字间距 */
+  color: rgb(49, 15, 244);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center; /* 水平居中链接内的内容 */
+}
+
+.qrcode-link:hover #QRcodeImg {
+  display: block;  /* 当鼠标悬停在 .qrcode-link 上时，二维码显示 */
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;xianghe-何翔&#34;&gt;XiangHe (何翔)
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;img src=&#34;https://ooo.0x0.ooo/2024/11/22/OHdtDY.jpg&#34; alt=&#34;何翔&#34; width=&#34;100&#34; style=&#34;display: block; margin: auto;&#34;&gt;&lt;/th&gt;
+          &lt;th&gt;姓名：何翔&lt;br /&gt; 学校：&lt;a class=&#34;link&#34; href=&#34;https://www.cqu.edu.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;重庆大学&lt;/a&gt; &lt;br /&gt; 学院：&lt;a class=&#34;link&#34; href=&#34;http://www.cs.cqu.edu.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;计算机学院&lt;/a&gt; &lt;br /&gt; 邮箱：&lt;a class=&#34;link&#34; href=&#34;mailto:xianghe@stu.cqu.edu.cn&#34; &gt;xianghe@stu.cqu.edu.cn&lt;/a&gt;&lt;br /&gt; 研究方向：时空数据管理&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;关于我和实验室&#34;&gt;关于我和实验室
+&lt;/h3&gt;&lt;p&gt;何翔，硕士，目前就读于重庆大学计算机学院。于2022年获得重庆大学学士学位并推免到本校，导师为&lt;a class=&#34;link&#34; href=&#34;http://www.cs.cqu.edu.cn/info/1275/3805.htm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;陈超&lt;/a&gt;教授、&lt;a class=&#34;link&#34; href=&#34;http://www.kangry.net/blog/ruiyuanli&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;李瑞远&lt;/a&gt;副教授。&lt;/p&gt;
+&lt;a href=&#34;&#34; class=&#34;qrcode-link&#34;&gt;
+  时空艺术团队（START，Spatio-Temporal Art）
+  &lt;div id=&#34;QRcodeImg&#34;&gt;
+      &lt;p class=&#34;qrcode-text&#34;&gt;
+      欢迎微信扫码关注公众号
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/a&gt;
+&lt;p&gt;来自重庆大学时空实验室，旨在发挥企业和高校的优势，深入探索时空数据收集、存储、管理、挖掘、可视化相关技术，并积极推进学术成果在产业界的落地！年度有2~3名研究生名额，欢迎计算机、GIS等相关专业的学生报考！&lt;/p&gt;
+&lt;h3 id=&#34;教育背景&#34;&gt;教育背景
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;2022.09 - 至今           重庆大学 硕士 计算机科学与技术&lt;/li&gt;
+&lt;li&gt;2018.09 - 2022.06    重庆大学 本科 计算机科学与技术&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;研究工作&#34;&gt;研究工作
+&lt;/h3&gt;&lt;h4 id=&#34;当前研究&#34;&gt;当前研究
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;学习型布隆过滤器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;已发表&#34;&gt;已发表
+&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;Ruiyuan Li, Xiang He, Yingying Sun, Jun Jiang, You Shang, Guanyao Li, Chao Chen. Spatio-Temporal Keyword Query Processing Based on Key-Value Stores. Data Science and Engineering. 2024.&lt;/li&gt;
+&lt;li&gt;李政,何翔,姜俊,周思晗,李瑞远,陈超.面向轨迹流的分布式连续查询与对象追踪算法[C]//第十八届全国普适计算学术会议(PCC 2022)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;参与项目&#34;&gt;参与项目
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;横向项目，&lt;a class=&#34;link&#34; href=&#34;https://github.com/Spatio-Temporal-Lab/cupid-db&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;cupid-db&lt;/a&gt;时空大数据管理分析引擎，2023年1月~2023年4月，参与&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;奖励荣誉&#34;&gt;奖励/荣誉
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;2021 团体程序设计天梯赛 个人三等奖 &amp;amp; 团队三等奖&lt;/li&gt;
+&lt;li&gt;2020 国际大学生程序设计竞赛南京赛区 银牌&lt;/li&gt;
+&lt;li&gt;2020 国际大学生程序设计竞东亚区决赛 铜牌&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>友链</title>
+        <link>https://cquhx.github.io/%E5%8F%8B%E9%93%BE/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://cquhx.github.io/%E5%8F%8B%E9%93%BE/</guid>
+        <description>&lt;p&gt;我的大佬好友们Orz&lt;/p&gt;
+&lt;!-- To use this feature, add `links` section to frontmatter.
+
+This page&#39;s frontmatter:
+
+```yaml
+links:
+  - title: GitHub
+    description: GitHub is the world&#39;s largest software development platform.
+    website: https://github.com
+    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: TypeScript
+    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+    website: https://www.typescriptlang.org
+    image: ts-logo-128.jpg
+```
+
+`image` field accepts both local and external images. --&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
